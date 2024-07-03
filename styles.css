@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.heroSection {
+  background-color: rgb(2, 152, 2);
+  min-height: 300px;
+}
+
+.p-card {
+  transform: scale(1);
+  box-shadow: 0 0 0;
+  transition: 0.4s transform, box-shadow ease;
+}
+
+.p-card:hover {
+  transform: scale(1.03);
+  box-shadow: 10px 5px 5px rgb(161, 161, 161);
+  transition: 0.4s transform, box-shadow ease;
+  cursor: pointer;
+}
